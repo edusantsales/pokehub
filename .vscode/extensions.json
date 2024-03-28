@@ -1,0 +1,23 @@
+{
+    "recommendations": [
+        "aaron-bond.better-comments",
+        "adpyke.codesnap",
+        "christian-kohler.path-intellisense",
+        "dart-code.dart-code",
+        "dart-code.flutter",
+        "eamodio.gitlens",
+        "humao.rest-client",
+        "hzgood.dart-data-class-generator",
+        "mhutchie.git-graph",
+        "miquelddg.dart-barrel-file-generator",
+        "ms-ceintl.vscode-language-pack-pt-br",
+        "ms-vscode.theme-materialkit",
+        "pkief.material-icon-theme",
+        "pkief.material-product-icons",
+        "pomber.git-file-history",
+        "ritwickdey.liveserver",
+        "rocketseat.theme-omni",
+        "rodrigorahman.flutter-dart-utils",
+        "usernamehw.errorlens",
+    ]
+}

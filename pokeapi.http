@@ -1,0 +1,17 @@
+# GET ALL POKE API's
+GET https://pokeapi.co/api/v2
+
+###
+
+# GET ALL POKEMONS
+GET https://pokeapi.co/api/v2/pokemon/?offset=0&limit=2000
+
+###
+
+# GET POKEMONS BY ID OR NAME
+GET https://pokeapi.co/api/v2/pokemon/1/
+
+###
+
+# GET POKEMON EVOLUTION BY ID
+GET https://pokeapi.co/api/v2/evolution-chain/2/
