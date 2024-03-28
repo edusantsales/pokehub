@@ -25,9 +25,13 @@ class _HomeViewState extends State<HomeView> {
       backgroundColor: colors.cardColor,
       body: context.screen.width < Breakpoints.xs.value
           ? const SizedBox.shrink()
-          : Center(
-              child: SizedBox.fromSize(
-                size: context.maxWidth,
+          : Align(
+              alignment: Alignment.topCenter,
+              child: ConstrainedBox(
+                constraints: BoxConstraints(
+                  maxHeight: context.maxSize.height,
+                  maxWidth: context.maxSize.width,
+                ),
                 child: CustomScrollView(
                   physics: const ClampingScrollPhysics(),
                   slivers: <Widget>[
@@ -217,7 +221,8 @@ class _HomeCard extends StatelessWidget {
       onTap: onTap,
       child: Padding(
         padding: const EdgeInsets.all(4),
-        child: DecoratedBox(
+        child: Container(
+          alignment: Alignment.centerLeft,
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(16),
             boxShadow: <BoxShadow>[
@@ -230,29 +235,26 @@ class _HomeCard extends StatelessWidget {
             ],
             color: backgroundColor,
             image: const DecorationImage(
-              image: CachedNetworkImageProvider(kPokeballFlat, scale: 2),
+              image: CachedNetworkImageProvider(kPokeballFlat),
               alignment: Alignment.centerRight,
               filterQuality: FilterQuality.high,
               fit: BoxFit.contain,
               isAntiAlias: true,
             ),
           ),
-          child: Container(
-            alignment: Alignment.centerLeft,
-            padding: const EdgeInsets.only(left: 8),
-            child: Text(
-              label,
-              style: fonts.fontSize24?.copyWith(
-                color: colors.primaryColor,
-                fontWeight: FontWeight.w900,
-                shadows: <Shadow>[
-                  Shadow(color: colors.black26, blurRadius: 1),
-                  Shadow(color: colors.black26, blurRadius: 2),
-                  Shadow(color: colors.black26, blurRadius: 3),
-                ],
-              ),
-              overflow: TextOverflow.ellipsis,
+          padding: const EdgeInsets.only(left: 16),
+          child: Text(
+            label,
+            style: fonts.fontSize24?.copyWith(
+              color: colors.primaryColor,
+              fontWeight: FontWeight.w900,
+              shadows: <Shadow>[
+                Shadow(color: colors.black26, blurRadius: 1),
+                Shadow(color: colors.black26, blurRadius: 2),
+                Shadow(color: colors.black26, blurRadius: 3),
+              ],
             ),
+            overflow: TextOverflow.ellipsis,
           ),
         ),
       ),
