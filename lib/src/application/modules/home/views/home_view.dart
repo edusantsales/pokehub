@@ -121,14 +121,14 @@ class _HomeViewState extends State<HomeView> {
                                               fonts: inter,
                                               onTap: () {},
                                               backgroundColor: colors.green,
-                                              label: 'Favoritos',
+                                              label: 'Naturezas',
                                             ),
                                             _HomeCard(
                                               colors: colors,
                                               fonts: inter,
                                               onTap: () {},
                                               backgroundColor: colors.blue,
-                                              label: 'Equipes',
+                                              label: 'Favoritos',
                                             ),
                                             _HomeCard(
                                               colors: colors,
@@ -142,14 +142,14 @@ class _HomeViewState extends State<HomeView> {
                                               fonts: inter,
                                               onTap: () {},
                                               backgroundColor: colors.purple,
-                                              label: 'Jogos',
+                                              label: 'Séries',
                                             ),
                                             _HomeCard(
                                               colors: colors,
                                               fonts: inter,
                                               onTap: () {},
                                               backgroundColor: colors.brown,
-                                              label: 'Séries',
+                                              label: 'Jogos',
                                             ),
                                           ],
                                         ),
@@ -217,44 +217,40 @@ class _HomeCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return InkWell(
-      onTap: onTap,
-      child: Padding(
-        padding: const EdgeInsets.all(4),
-        child: Container(
-          alignment: Alignment.centerLeft,
-          decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(16),
-            boxShadow: <BoxShadow>[
-              BoxShadow(
-                color: colors.black26,
-                offset: const Offset(0, 4),
-                blurRadius: 4,
-                spreadRadius: 2,
+    return Padding(
+      padding: const EdgeInsets.all(4),
+      child: Material(
+        borderRadius: BorderRadius.circular(16),
+        color: backgroundColor,
+        clipBehavior: Clip.antiAlias,
+        elevation: 6,
+        child: InkWell(
+          onTap: onTap,
+          child: Container(
+            alignment: Alignment.centerLeft,
+            decoration: const BoxDecoration(
+              image: DecorationImage(
+                image: CachedNetworkImageProvider(kPokeballFlat),
+                alignment: Alignment.centerRight,
+                filterQuality: FilterQuality.high,
+                fit: BoxFit.contain,
+                isAntiAlias: true,
               ),
-            ],
-            color: backgroundColor,
-            image: const DecorationImage(
-              image: CachedNetworkImageProvider(kPokeballFlat),
-              alignment: Alignment.centerRight,
-              filterQuality: FilterQuality.high,
-              fit: BoxFit.contain,
-              isAntiAlias: true,
             ),
-          ),
-          padding: const EdgeInsets.only(left: 16),
-          child: Text(
-            label,
-            style: fonts.fontSize24?.copyWith(
-              color: colors.primaryColor,
-              fontWeight: FontWeight.w900,
-              shadows: <Shadow>[
-                Shadow(color: colors.black26, blurRadius: 1),
-                Shadow(color: colors.black26, blurRadius: 2),
-                Shadow(color: colors.black26, blurRadius: 3),
-              ],
+            padding: const EdgeInsets.only(left: 16),
+            child: Text(
+              label,
+              style: fonts.fontSize24?.copyWith(
+                color: colors.primaryColor,
+                fontWeight: FontWeight.w900,
+                shadows: <Shadow>[
+                  Shadow(color: colors.black26, blurRadius: 1),
+                  Shadow(color: colors.black26, blurRadius: 2),
+                  Shadow(color: colors.black26, blurRadius: 3),
+                ],
+              ),
+              overflow: TextOverflow.ellipsis,
             ),
-            overflow: TextOverflow.ellipsis,
           ),
         ),
       ),
