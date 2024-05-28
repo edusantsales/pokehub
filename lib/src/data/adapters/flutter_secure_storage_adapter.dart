@@ -2,8 +2,8 @@ import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 
 import '../../domain/interfaces/adapters/local_storage_interface.dart';
 
-class LocalStorageAdapter implements LocalStorageInterface {
-  LocalStorageAdapter() : _storage = const FlutterSecureStorage();
+class FlutterSecureStorageAdapter implements LocalStorageInterface {
+  FlutterSecureStorageAdapter() : _storage = const FlutterSecureStorage();
 
   final FlutterSecureStorage _storage;
 
