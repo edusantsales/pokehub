@@ -38,7 +38,8 @@ dependencies:
   flutter_secure_storage: 9.0.0
   flutter_web_plugins:
     sdk: flutter
-  http: 1.2.0
+  http: 1.2.1
+  youtube_player_iframe: 4.0.4
 
 dev_dependencies:
   # The "flutter_lints" package below contains a set of recommended lints to
