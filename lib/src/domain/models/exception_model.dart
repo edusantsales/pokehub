@@ -57,7 +57,9 @@ enum GenericTypeException {
   getPokemonByNameOrId(
     'PokemonReporitory Error',
     'Falha ao tentar consultar as informações de um pokemon no servidor.',
-  );
+  ),
+  getYoutubeChannel('YoutubeRepository Error', 'Falha ao tentar carregar as informações do canal no Youtube'),
+  getYoutubePlaylist('YoutubeRepository Error', 'Falha ao tentar carregar a playlist do Youtube');
 
   const GenericTypeException(this.headerMessage, this.bodyMessage);
 
