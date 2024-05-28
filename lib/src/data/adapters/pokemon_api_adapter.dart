@@ -3,9 +3,9 @@ import 'package:http/http.dart';
 import '../../domain/interfaces/adapters/http_client_interface.dart';
 import '../../domain/models/response_model.dart';
 
-final class HttpAdapter implements HttpClientInterface {
-  HttpAdapter() : _client = Client() {
-    _baseUrl = const String.fromEnvironment('BASE_URL');
+final class PokemonApiAdapter implements HttpClientInterface {
+  PokemonApiAdapter() : _client = Client() {
+    _baseUrl = const String.fromEnvironment('POKE_API_URL');
   }
 
   final Client _client;
