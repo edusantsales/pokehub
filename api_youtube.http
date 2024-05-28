@@ -1,0 +1,14 @@
+# GET YOUTUBE CHANNEL BY ID
+GET https://www.googleapis.com/youtube/v3/channels
+    ?part=snippet,contentDetails,statistics
+    &id={{YOUTUBE_CHANNEL_ID}}
+    &key={{YOUTUBE_API_KEY}}
+
+###
+
+# GET VIDEOS FROM PLAYLISTS ID
+GET https://www.googleapis.com/youtube/v3/playlistItems
+    ?part=snippet
+    &playlistId={{YOUTUBE_PLAYLIST_VIDEOS_ID}}
+    &maxResults=5
+    &key={{YOUTUBE_API_KEY}}
