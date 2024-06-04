@@ -1,16 +1,16 @@
 import 'dart:convert';
 import 'dart:developer';
 
-import '../../domain/interfaces/adapters/local_storage_interface.dart';
-import '../../domain/interfaces/repositories/pokemon_storage_interface.dart';
+import '../../domain/interfaces/adapters/local_database_interface.dart';
+import '../../domain/interfaces/databases/pokemon_database_interface.dart';
 import '../../domain/models/exception_model.dart';
 import '../../domain/models/pokemon_model.dart';
 import '../../domain/states/pokemon_state.dart';
 
-class PokemonStorage implements PokemonStorageInterface {
-  PokemonStorage(this._storage);
+class PokemonDatabase implements PokemonDatabaseInterface {
+  PokemonDatabase(this._storage);
 
-  final LocalStorageInterface _storage;
+  final LocalDatabaseInterface _storage;
 
   void _logger(GenericException ge) {
     final GenericTypeException type = ge.typeException as GenericTypeException;
