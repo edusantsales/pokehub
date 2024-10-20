@@ -5,10 +5,6 @@ Seu hub de contéudos sobre pokémons
 
 ![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
 
-## 🔖 Layout
-
-Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/design/BjVxPc1UH3fEkXLaN9m3yB/Project-%2301---Poke-Hub?node-id=0-1). É necessário ter conta no [Figma](http://figma.com/) para acessá-lo.
-
 ## ✨ Tecnologias
 
 - [Flutter](https://flutter.dev/)
@@ -18,6 +14,16 @@ Você pode visualizar o layout do projeto através [desse link](https://www.figm
 
 - Temas dark e light
 - Multiplataforma
+
+## 🔖 Layout
+
+Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/design/BjVxPc1UH3fEkXLaN9m3yB/Project-%2301---Poke-Hub?node-id=0-1). É necessário ter conta no [Figma](http://figma.com/) para acessá-lo.
+
+## 📄 Documentação das API's
+
+ - [PokéAPI](https://pokeapi.co/docs/v2)
+ - [API YouTube Data Guide](https://developers.google.com/youtube/v3/getting-started?hl=pt-br)
+ - [API YouTube Data Docs](https://developers.google.com/youtube/v3/docs?hl=pt-br)
 
 ## 🧠 Aprendizados
 
@@ -92,12 +98,6 @@ Instale my-project com npm
   npm install my-project
   cd my-project
 ```
-    
-## 📄 Documentação das API's
-
- - [PokéAPI](https://pokeapi.co/docs/v2)
- - [API YouTube Data Guide](https://developers.google.com/youtube/v3/getting-started?hl=pt-br)
- - [API YouTube Data Docs](https://developers.google.com/youtube/v3/docs?hl=pt-br)
 
 ## 📝 Autores
 
