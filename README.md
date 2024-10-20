@@ -105,7 +105,7 @@ Instale my-project com npm
 
 ## ✅ Siga-me
 
-[![github](https://img.shields.io/badge/github-171515?style=for-the-badge&logo=github&logoColor=white)](https://github.com/edusantsales)
+[![github](https://img.shields.io/badge/github-171515?style=for-the-badge&logo=github&logoColor=white)](https://www.github.com/edusantsales)
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/edusantsales/)
 
@@ -113,4 +113,4 @@ Instale my-project com npm
 
 #
 
-Copyright © 2024 [@edusantsales](https://github.com/edusantsales). Todos os direitos reservados.
+Copyright © 2024 [@edusantsales](https://www.github.com/edusantsales). Todos os direitos reservados.
