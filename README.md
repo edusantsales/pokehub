@@ -105,7 +105,7 @@ Instale my-project com npm
 
 ## ✅ Siga-me
 
-[![github](https://img.shields.io/badge/github-171515?style=for-the-badge&logo=github&logoColor=white)](https://www.github.com/edusantsales)  [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/edusantsales/)  [![instagram](https://img.shields.io/badge/instagram-CD486B?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/edusantsales)
+[![github](https://img.shields.io/badge/github-37393A?style=for-the-badge&logo=github&logoColor=white)](https://www.github.com/edusantsales)  [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/edusantsales/)  [![instagram](https://img.shields.io/badge/instagram-CD486B?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/edusantsales)
 
 #
 
