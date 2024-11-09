@@ -3,7 +3,8 @@
 
 Seu hub de contéudos sobre pokémons
 
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+<!-- ![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png) -->
+![Logo](![image](https://github.com/user-attachments/assets/e1945637-2ec7-48fe-90d8-9f102b89f11d))
 
 ## ✨ Tecnologias
 
