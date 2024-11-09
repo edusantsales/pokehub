@@ -1,8 +1,3 @@
-
-# Poke Hub
-
-Seu hub de contéudos sobre pokémons
-
 ![Capa](https://github.com/user-attachments/assets/44898098-bb4c-4a70-bfd2-ab5a39cbd26b)
 
 ## 🔥 Tecnologias
