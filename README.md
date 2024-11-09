@@ -3,10 +3,9 @@
 
 Seu hub de contéudos sobre pokémons
 
-<!-- ![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png) -->
-![Logo](![image](https://github.com/user-attachments/assets/e1945637-2ec7-48fe-90d8-9f102b89f11d))
+![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
 
-## ✨ Tecnologias
+## 🔥 Tecnologias
 
 - [Flutter](https://flutter.dev/)
 - [Dart](https://dart.dev/)
@@ -16,9 +15,13 @@ Seu hub de contéudos sobre pokémons
 - Temas dark e light
 - Multiplataforma
 
-## 🔖 Layout
+## 🎨 Layout do Projeto
 
 Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/design/BjVxPc1UH3fEkXLaN9m3yB/Project-%2301---Poke-Hub?node-id=0-1). É necessário ter conta no [Figma](http://figma.com/) para acessá-lo.
+
+## 🧱 Arquitetura do Projeto
+
+![Arquitetura](https://github-production-user-asset-6210df.s3.amazonaws.com/19241400/384565520-e1945637-2ec7-48fe-90d8-9f102b89f11d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241109%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241109T021927Z&X-Amz-Expires=300&X-Amz-Signature=f72dd8031ae2166d28c5d48e5e344942206bc5f8f8143977080dfaa2bab445a3&X-Amz-SignedHeaders=host)
 
 ## 📄 Documentação das API's
 
@@ -34,7 +37,7 @@ O que você aprendeu construindo esse projeto? Quais desafios você enfrentou e 
 
 Que melhorias você fez no seu código? Ex: refatorações, melhorias de performance, acessibilidade, etc
 
-## 💻 Roadmap
+## 🎯 Roadmap
 
 - Melhorar o suporte de navegadores
 - Adicionar mais integrações
@@ -59,7 +62,7 @@ Clonar este repositorio
   git clone https://github.com/edusantsales/pokehub.git
 ```
 
-Acessar a pasta do projeto em seu computador
+Acessar o diretório do projeto em seu computador
 
 ```bash
   cd pokehub
@@ -85,20 +88,15 @@ Executar o app no iOS Simulator / Android Emulator / Chrome ou no seu dispositiv
 
 ## 🚀 Como executar os testes
 
-Para rodar os testes, rode o seguinte comando
+Para rodar os testes, rode o seguinte comando dentro do diretório do projeto
 
 ```bash
-  npm run test
+  flutter test
 ```
 
-## 🚀 Como instalar no dispositivo iOS ou Android
+## 📱 Como instalar no dispositivo iOS ou Android
 
-Instale my-project com npm
-
-```bash
-  npm install my-project
-  cd my-project
-```
+Em breve...
 
 ## 📝 Autores
 
