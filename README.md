@@ -3,7 +3,7 @@
 
 Seu hub de contéudos sobre pokémons
 
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+![Capa](https://github.com/user-attachments/assets/44898098-bb4c-4a70-bfd2-ab5a39cbd26b)
 
 ## 🔥 Tecnologias
 
@@ -21,7 +21,7 @@ Você pode visualizar o layout do projeto através [desse link](https://www.figm
 
 ## 🧱 Arquitetura do Projeto
 
-![Arquitetura](https://github-production-user-asset-6210df.s3.amazonaws.com/19241400/384565520-e1945637-2ec7-48fe-90d8-9f102b89f11d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241109%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241109T021927Z&X-Amz-Expires=300&X-Amz-Signature=f72dd8031ae2166d28c5d48e5e344942206bc5f8f8143977080dfaa2bab445a3&X-Amz-SignedHeaders=host)
+![Arquitetura](https://github.com/user-attachments/assets/19c94958-82a2-4e19-bca8-82ed505fd9f7)
 
 ## 📄 Documentação das API's
 
@@ -39,8 +39,7 @@ Que melhorias você fez no seu código? Ex: refatorações, melhorias de perform
 
 ## 🎯 Roadmap
 
-- Melhorar o suporte de navegadores
-- Adicionar mais integrações
+- Em breve...
 
 ## ℹ️ Variáveis de Ambiente
 
