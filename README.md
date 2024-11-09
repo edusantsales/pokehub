@@ -16,7 +16,7 @@ Você pode visualizar o layout do projeto através [desse link](https://www.figm
 
 ## 🧱 Arquitetura do Projeto
 
-![Arquitetura](https://github.com/user-attachments/assets/19c94958-82a2-4e19-bca8-82ed505fd9f7)
+![Arquitetura](https://github.com/user-attachments/assets/835e215d-581b-4272-85cf-5a28676fea97)
 
 ## 📄 Documentação das API's
 
