@@ -1,4 +1,4 @@
-![Capa](https://github.com/user-attachments/assets/990dd457-47f8-44d9-8266-5718659da649)
+![Capa](https://github.com/user-attachments/assets/6e4fc6fa-5381-413c-850c-9ffe9973bc08)
 
 ## 🔥 Tecnologias
 
