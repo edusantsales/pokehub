@@ -21,8 +21,9 @@
 
 ## 🧱 Arquitetura do Projeto
 
-<!-- ![Arquitetura](https://github.com/user-attachments/assets/835e215d-581b-4272-85cf-5a28676fea97) -->
-- Em breve...
+![Arquitetura](https://github.com/user-attachments/assets/9408db2e-d502-4f10-82a1-224b4b7fb538)
+
+- A arquitetura proposta para esse projeto é baseado no [Flutter Architecture Guide](https://docs.flutter.dev/app-architecture/guide), mas não será implementado todos os conceitos apresentados nesse guia.
 
 ## 📄 Documentação das API's
 
@@ -147,7 +148,7 @@ Em breve...
 
 ## ✅ Siga-me
 
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/edusantsales/)  [![instagram](https://img.shields.io/badge/instagram-CD486B?style=for-the-badge)](https://www.instagram.com/edusantsales)  [![github](https://img.shields.io/badge/github-37393A?style=for-the-badge)](https://www.github.com/edusantsales)
+[![instagram](https://img.shields.io/badge/instagram-CD486B?style=for-the-badge)](https://www.instagram.com/edusantsales)  [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/edusantsales/)  [![github](https://img.shields.io/badge/github-37393A?style=for-the-badge)](https://www.github.com/edusantsales)
 
 #
 
