@@ -1,6 +1,10 @@
 ![Capa](https://github.com/user-attachments/assets/6e4fc6fa-5381-413c-850c-9ffe9973bc08)
 
-## 🔥 Tecnologias
+## 🔥 Funcionalidades
+
+- Em breve...
+
+## ✨ Tecnologias
 
 - [Flutter](https://flutter.dev/)
 - [Dart](https://dart.dev/)
@@ -9,10 +13,6 @@
 - [Git](https://git-scm.com/)
 - [GitHub](https://github.com/home)
 - [GitHub Actions](https://github.com/features/actions)
-
-## ✨ Funcionalidades
-
-- Em breve...
 
 ## 🎨 Layout do Projeto
 
@@ -31,7 +31,7 @@
  - [API YouTube Data Guide](https://developers.google.com/youtube/v3/getting-started?hl=pt-br)
  - [API YouTube Data Docs](https://developers.google.com/youtube/v3/docs?hl=pt-br)
 
-## 📄 Commits Semântico
+## ⚠️ Commits Semântico
 
 A primeira e principal descrição de um commit semântico, refere-se a seu tipo, os
 quais possuem a finalidade de comunicar a intenção de processamento que o
@@ -40,29 +40,29 @@ utilizador teve em sua execução.
 Abaixo será enumerado os principais types descritos na documentação do Angular
 Commit Message Guidelines:
 
- 1. **build:** Alterações que afetam o sistema de construção ou dependências externas
+1. ⚠️ [build:]() Alterações que afetam o sistema de construção ou dependências externas
 (escopos de exemplo: gulp, broccoli, npm);
- 2. **ci:** Changes to our CI configuration files and scripts (example scopes: Travis,
+2. ⚠️ [ci:]() Changes to our CI configuration files and scripts (example scopes: Travis,
 Circle, BrowserStack, SauceLabs);
- 3. **docs:** Referem-se a inclusão ou alteração somente de arquivos de documentação;
- 4. **feat:** Tratam adições de novas funcionalidades ou de quaisquer outras novas
+3. ⚠️ [docs:]() Referem-se a inclusão ou alteração somente de arquivos de documentação;
+4. ⚠️ [feat:]() Tratam adições de novas funcionalidades ou de quaisquer outras novas
 implantações ao código;
- 5. **fix:** Essencialmente definem o tratamento de correções de bugs;
- 6. **perf:** Uma alteração de código que melhora o desempenho;
- 7. **refactor:** Tipo utilizado em quaisquer mudanças que sejam executados no
+5. ⚠️ [fix:]() Essencialmente definem o tratamento de correções de bugs;
+6. ⚠️ [perf:]() Uma alteração de código que melhora o desempenho;
+7. ⚠️ [refactor:]() Tipo utilizado em quaisquer mudanças que sejam executados no
 código, porém não alterem a funcionalidade final da tarefa impactada;
- 8. **style:** Alterações referentes a formatações na apresentação do código que não
+8. ⚠️ [style:]() Alterações referentes a formatações na apresentação do código que não
 afetam o significado do código, como por exemplo: espaço em branco,
 formatação, ponto e vírgula ausente etc.);
- 9. **test:** Adicionando testes ausentes ou corrigindo testes existentes nos processos
+9. ⚠️ [test:]() Adicionando testes ausentes ou corrigindo testes existentes nos processos
 de testes automatizados (TDD);
- 10. **chore:** Atualização de tarefas que não ocasionam alteração no código de
+10. ⚠️ [chore:]() Atualização de tarefas que não ocasionam alteração no código de
 produção, mas mudanças de ferramentas, mudanças de configuração e
 bibliotecas que realmente não entram em produção;
- 11. **env:** Basicamente utilizado na descrição de modificações ou adições em arquivos
+11. ⚠️ [env:]() Basicamente utilizado na descrição de modificações ou adições em arquivos
 de configuração em processos e métodos de integração contínua (CI), como
 parâmetros em arquivos de configuração de containers;
- 12. **improvement:** Melhorias em uma implementação atual sem adicionar um novo recurso ou consertar um bug.
+12. ⚠️ [improvement:]() Melhorias em uma implementação atual sem adicionar um novo recurso ou consertar um bug.
 
 Observe que esses tipos não são obrigatórios pela especificação do Conventional
 Commits.
@@ -83,7 +83,12 @@ Que melhorias você fez no seu código? Ex: refatorações, melhorias de perform
 
 ## 🎯 Roadmap
 
-Em breve...
+- ☑️ **v1.0.0 -> MVP**
+  - Pokédex com tela de listagem de pokémons e tela de detalhes sobre o pokémon
+- ☑️ **v1.1.0 -> Features Pokémons Favoritos e Times**
+  - Funcionalidades para a Pokédex poder favoritar um pokémon e montar um time com os pokémons favoritados (mostrando dados referentes a cobertura de tipos, forças, fraquezas e resistências)
+- ☑️ **v1.2.0 -> Feature Selecionar Golpes**
+  - Funcionalidade para a Pokédex permitir o usuário escolher os golpes de cada pokémon favoritado
 
 ## ℹ️ Variáveis de Ambiente
 
