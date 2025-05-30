@@ -153,7 +153,7 @@ Em breve...
 
 ## ✅ Siga-me
 
-[![instagram](https://img.shields.io/badge/instagram-CD486B?style=for-the-badge)](https://www.instagram.com/edusantsales)  [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/edusantsales/)  [![github](https://img.shields.io/badge/github-37393A?style=for-the-badge)](https://www.github.com/edusantsales)
+[![github](https://img.shields.io/badge/github-37393A?style=for-the-badge)](https://www.github.com/edusantsales)  [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/edusantsales/)  [![instagram](https://img.shields.io/badge/instagram-CD486B?style=for-the-badge)](https://www.instagram.com/edusantsales)
 
 #
 
